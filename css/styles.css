@@ -190,8 +190,8 @@ select::-ms-expand {
   background-color: #fff;
   position: relative;
   top: 50%;
-  -webkit-transform: skew(0deg, 25deg);
-          transform: skew(0deg, 25deg);
+  -webkit-transform: skewY(25deg);
+          transform: skewY(25deg);
 }
 .line2 {
   display: block;
@@ -199,9 +199,9 @@ select::-ms-expand {
   height: 1px;
   background-color: #f00;
   position: relative;
-  top: 100%;
-  -webkit-transform: skew(0deg, 135deg);
-          transform: skew(0deg, 135deg);
+  top: 50%;
+  -webkit-transform: skewy(135deg);
+          transform: skewy(135deg);
 }
 .outside {
   padding: 0;
