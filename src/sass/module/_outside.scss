@@ -1,0 +1,8 @@
+@use "global" as *;
+.outside {
+  padding: 0;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

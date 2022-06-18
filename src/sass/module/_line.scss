@@ -1,0 +1,28 @@
+@use "global" as *;
+.line1 {
+  display: block;
+  width: 100vw;
+  height: 1px;
+  background-color: #fff;
+  position: relative;
+  top: 50%;
+  transform: skew(0deg, 25deg);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+.line2 {
+  display: block;
+  width: 100vw;
+  height: 1px;
+  background-color: #f00;
+  position: relative;
+  top: 100%;
+  transform: skew(0deg, 135deg);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
